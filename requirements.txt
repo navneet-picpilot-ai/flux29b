@@ -1,0 +1,11 @@
+runpod
+torch
+torchvision
+transformers
+accelerate
+safetensors
+huggingface_hub
+pillow
+sentencepiece
+protobuf
+git+https://github.com/huggingface/diffusers.git
