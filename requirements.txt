@@ -1,11 +1,13 @@
-runpod
 torch
 torchvision
 transformers
 accelerate
 safetensors
 huggingface_hub
-pillow
 sentencepiece
 protobuf
+
+fastapi
+uvicorn[standard]
+
 git+https://github.com/huggingface/diffusers.git
