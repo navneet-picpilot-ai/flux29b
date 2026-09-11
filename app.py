@@ -74,6 +74,11 @@ async def load_model():
 
 @app.get("/ping")
 async def ping():
+    return {"status": "healthy"}
+
+
+@app.get("/ping2")
+async def ping():
 
     if model_ready:
 
